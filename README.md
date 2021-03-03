@@ -1,5 +1,42 @@
 # NetworkAcademy
 
+## Enunt
+
+Acest proiect reprezinta un foarte bun exercitiu de la cursul de *Structuri
+de date*. Este vorba despre un sistem ce agregă informații despre artcole
+științifice și răspunde la diferite query-uri. Mai multe detalii se pot gasi
+[aici](https://ocw.cs.pub.ro/courses/sd-ca/teme/tema3-2020).
+
+## Continut repo
+
+Implementarea propriu-zisa a acestei aplicatii se gaseste in fisierul **publications.c**.
+Celelalte fisiere sursa folosite reprezinta propriile mele implementari pentru
+diferitele structuri de date folosite.
+
+Directoarele din repo contin urmatoarele informatii:
+
+* parsed_papers - contine fisierele cu informatii despre lucrarile stiintifice
+* checker - sursele care testeaza corectitudinea implementarii
+* parson - contine fisierele sursa ce au rolul de a parsa inputul din fisierele
+din *parsed_papers*
+* tests_in - testele de input
+* tests_ref - ce ar trebui sa obtin in urma rularii
+
+## Modalitate de rulare
+
+Pentru a compila, folosesc urmatoarele comenzi:
+
+* make - pentru a obtine fisierul obiect *publications.o*
+* make -f Makefile_Academia - pentru a obtine executabilul AcademiaNetwork
+
+Pentru a rula aplicatia folosesc o comanda de tipul:
+
+* ./AcademiaNetwork tests.in/*nume-test* tests.ref/*nume-test*
+
+Daca nu se obtine niciun output, inseamna ca rezultatul obtinut este identic
+cu cel din fisierul tests.ref/*nume-test*, ceea ce arata corectitudinea
+implementarii.
+
 ## Continut structura PublData
 
 Structurile de date folosite sunt urmatoarele:
