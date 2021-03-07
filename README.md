@@ -2,8 +2,8 @@
 
 ## Enunt
 
-Acest proiect reprezinta un foarte bun exercitiu de la cursul de *Structuri
-de date*. Este vorba despre un sistem ce agregă informații despre artcole
+Acest proiect reprezinta un foarte bun exercitiu de la cursul de **Structuri
+de date**. Este vorba despre un sistem ce agregă informații despre articole
 științifice și răspunde la diferite query-uri. Mai multe detalii se pot gasi
 [aici](https://ocw.cs.pub.ro/courses/sd-ca/teme/tema3-2020).
 
